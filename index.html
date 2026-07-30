@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>גלבוע ייעוץ אלומניום | כרטיס ביקור דיגיטלי</title>
+    <title>גלבוע ייעוצ אלומניום | כרטיס ביקור דיגיטלי</title>
     
     <!-- ייבוא פונטים מגוגל -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,7 @@
         /* רקע אלגנטי לכרטיס */
         .card-bg {
             background:, #ffffff 0%, #f1f5f9 100%);
-            box-shadow: 0 20px 40px -15px rgba(0, 240, 240, 240);
+            box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.1);
         }
     </style>
 </head>
@@ -34,6 +34,11 @@
     <!-- קונטיינר הכרטיס - מותאם למובייל -->
     <div class="card-bg w-full max-w-sm rounded-[2.5rem] p-8 border border-slate-100 relative overflow-hidden">
         
+        <!-- אלמנט עיצובי (כתם צבע עדין ברקע) -->
+        <div class="absolute -top-20 -right-20 w-48 h-48 bg-cyan-100 rounded-full blur-3xl opacity-50"></div>
+        <div class="absolute -bottom-20 -left-20 w-48 h-48 bg-blue-100 rounded-full blur-3xl opacity-50"></div>
+
+        <div class="relative z-10 flex flex-col items-center text-center">
 
                 <!-- לוגו -->
 
@@ -50,7 +55,7 @@
             <p class="text-slate-600 text-base leading-relaxed mb-8 px-2 font-light">
                 תכנון מעטפת בניין בהתאם לדרישות הפרויקט החזון האדריכלי והתקן הישראלי   
                 <br><br>
-                <strong class="font-bold text-slate-800">צרו קשר</strong>
+                <strong class="font-bold text-slate-800">חייגו עכשיו</strong>.
 
             <!-- כפתורי פעולה מהירים -->
             <div class="w-full space-y-3">
